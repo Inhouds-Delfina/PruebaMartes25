@@ -20,3 +20,12 @@ header
 {
     color: rgb(63, 49, 48);
 }
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(99, 66, 66);
+  }
