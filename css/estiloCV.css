@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(238, 235, 229);
+}
+
+header
+{
+    background-color: rgb(206, 189, 183);
+    color: rgb(212, 189, 184);
+    text-align: center;
+}
