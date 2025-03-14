@@ -22,10 +22,9 @@ header
 }
 
 aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    font-style: italic;
-    background-color: rgb(99, 66, 66);
-  }
+    width: 300px;
+    padding: 15px;
+    float: left; 
+    text-align: left;
+    margin-right: 20px;
+}
