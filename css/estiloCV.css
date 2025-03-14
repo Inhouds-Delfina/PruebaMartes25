@@ -23,7 +23,9 @@ header
 
 aside {
     width: 300px;
-    padding: auto;
-    float: right; 
-    text-align: center;
+    padding: 10px;  
+    float: left; 
+    text-align: left;  
+    background-color: rgb(206, 189, 183);
+    margin-right: 20px; 
 }
