@@ -23,7 +23,7 @@ header
 
 aside {
     width: 300px;
-    padding: 15px;
-    float: left; 
+    padding: auto;
+    float: right; 
     text-align: center;
 }
