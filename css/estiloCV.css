@@ -10,6 +10,11 @@ body
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1, h2, h3
+{
+    color: rgb(73, 37, 32);
+}
+
 header
 {
     background-color: rgb(206, 189, 183);
@@ -24,4 +29,15 @@ aside {
     text-align: left;  
     background-color: rgb(206, 189, 183);
     margin-right: 20px; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(206, 189, 183);
+    color: rgb(73, 37, 32);
+    text-align: center;
+    padding: 10px;
 }
