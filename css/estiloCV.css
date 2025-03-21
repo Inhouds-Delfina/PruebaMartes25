@@ -21,7 +21,6 @@ body
 {
     font-family: 'Century Gothic Thin',Arial;
     background-color: #e0e9ef;
-    color: #ffffff;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -32,6 +31,7 @@ main
 {
  width: 60%;
  background-color: white;
+
 }
 
 
@@ -56,6 +56,7 @@ img
     /**height: 200px;*/
     width: 100%;
     background-color: rgb(18, 81, 118);
+    color: white;
     display: grid;
     place-items: center;
     padding: 10px;
@@ -121,7 +122,7 @@ img
 .educacion
 {
     width: 100%;
-    height: 150px;
+    height: auto;
     background-color: rgb(26, 98, 135);
     padding: 1em;
 
@@ -135,9 +136,8 @@ img
 .aptitudes
 {
     width: 100%;
-    height: 150px;
+    height: auto;
     background-color: rgb(18, 69, 95);
-    padding: 1em;
 
     li
     {
@@ -153,4 +153,40 @@ img
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.contenedorFlexbox
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 105, 146);
+    overflow: auto;
+    gap: 10px;    
+}
+
+.tarjeta
+{
+    /* flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-basis: 100%;
+    flex: 0px 0px 100%; */
+    background-color: rgb(22, 107, 156);
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.tarjetaTitulo
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tarjetaContenido
+{
+    font-size: 1em;
+    background-color: rgb(139, 173, 201);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
 }
