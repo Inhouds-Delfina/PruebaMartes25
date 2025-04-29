@@ -12,9 +12,9 @@ body
     place-items: center;
     text-align: center;
     color: aliceblue;
-    text-shadow: 0 0 10px white;
-    background: linear-gradient(to bottom, rgb(241, 225, 225), rgb(112, 71, 71));
-    background-image: url(https://i.scdn.co/image/ab67616d00001e029c198a19d1804ba3e42c47a2);
+    text-shadow: 0 0 2px white;
+    background: linear-gradient(to bottom, #a91d3a, #151515);
+    /* background-image: url(https://i.scdn.co/image/ab67616d00001e029c198a19d1804ba3e42c47a2); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +25,8 @@ body
 .header
 {
     text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 2px white;
 }
 
 .grid
@@ -35,12 +37,13 @@ body
 }
 .tarjeta{
 
+    color: aliceblue;
     display: flex;
     padding: 1em;
     text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(218, 174, 187);
+    background-color: rgb(121, 58, 69);
     border-radius: 15px;
 }
