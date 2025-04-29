@@ -35,7 +35,8 @@ body
     gap: 10px;
     justify-content: space-around;
 }
-.tarjeta{
+.tarjeta
+{
 
     color: aliceblue;
     display: flex;
@@ -46,4 +47,9 @@ body
     justify-content: center;
     background-color: rgb(121, 58, 69);
     border-radius: 15px;
+}
+
+.a
+{
+    color: white;
 }

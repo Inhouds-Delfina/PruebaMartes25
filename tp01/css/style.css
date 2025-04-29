@@ -1,4 +1,5 @@
-body{
+body
+{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -7,18 +8,21 @@ body{
     background-color: #151515;
 }
 
-main{
+main
+{
     display: flex;
     width: 25vw;
 }
 
-img{
+img
+{
     min-width: 200px;
     width: 50%;
     border-radius: 50%;
 }
 
-.card{
+.card
+{
     display: flex;
     position: relative;
     flex-direction: column;
@@ -31,7 +35,8 @@ img{
     box-shadow: 4px 4px 25px black;
 }
 
-.card-header{
+.card-header
+{
     padding: 1em 0;
     background-color: #6b6b6b;
     gap: 1em;
@@ -43,20 +48,23 @@ img{
     border-radius: 15px;
 }
 
-h3{
+h3
+{
     display: flex;
     justify-content: center;
     margin: 0;
     color: whitesmoke;
 }
 
-.nombre{
+.nombre
+{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.extra{
+.extra
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +73,8 @@ h3{
     gap: 5px;
 }
 
-.button-add{
+.button-add
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +90,8 @@ h3{
     box-shadow: 0 0 30px #F55A79;
 }
 
-.card-body{
+.card-body
+{
     padding: 2em 0;
     display: flex;
     flex-direction: column;
@@ -90,14 +100,16 @@ h3{
     gap: 2em;
 }
 
-.info{
+.info
+{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
 
-.button{
+.button
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,17 +120,24 @@ h3{
     color: white;
 }
 
-a{
+a
+{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 
-#volver{
+#volver
+{
     font-family: 'Century Gothic';
     position: absolute;
     left: 10px;
     top: 10px;
     color: rgb(255, 255, 255);
+}
+
+.a
+{
+    color: white;
 }
