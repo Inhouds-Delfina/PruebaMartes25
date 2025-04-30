@@ -35,9 +35,9 @@ body
     gap: 10px;
     justify-content: space-around;
 }
+
 .tarjeta
 {
-
     color: aliceblue;
     display: flex;
     padding: 1em;
@@ -45,7 +45,7 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(121, 58, 69);
+    background-color: rgba(255, 255, 255, 0.15); /* 0.3 es el nivel de opacidad */
     border-radius: 15px;
 }
 
