@@ -1,5 +1,5 @@
 # PruebaMartes25
 <hr>
-<h5>semaluhtounuyulohowwah</h5>
-<h6>tritjebeete</h6>
-<p>xd</p>
+<h5>PrubeMartes25 - Un proyecto de portafolio</h5>
+<h6>Para mis trabajos de la materia PDISC</h6>
+<p>:3</p>
