@@ -36,6 +36,9 @@ body {
 }
 
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,19 +46,21 @@ body {
 }
 
 
-/* .grid
-{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 10px;
-    justify-items: center;
-} */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   max-width: 1000px; 
   gap: 10px;
+  transform: translateY(10px);
+  @keyframes appear
+  {
+    to
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+
 }
 
 .tarjeta
@@ -70,6 +75,15 @@ body {
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 15px;
     gap: 1px;
+    min-height: 100px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+.tarjeta:hover{
+    transform: scale(1.02);
+    transition: all 200ms;
+    cursor: pointer;
 }
 
 .spotify
@@ -78,13 +92,29 @@ body {
   justify-content: center;
   width: 300px;
   height: 750px;
+  border-radius:12px;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.spotify:hover{
+    transform: scale(1.05);
+    transition: all 200ms;
 }
 
 .phantom {
   visibility: hidden;
 }
 
-a
-{
+a.boton {
     color: white;
+    display: inline-block;
+    background: rgba(255,255,255,0.1);
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 200ms;
+}
+
+a.boton:hover {
+    background: rgba(255,255,255,0.25);
 }
