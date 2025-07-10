@@ -6,21 +6,27 @@
     text-decoration: none;
 }
 
-body
-{
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: aliceblue;
-    text-shadow: 0 0 2px white;
-    background: linear-gradient(to bottom, #a91d1d, #230000);
-    /* background-image: url(https://i.scdn.co/image/ab67616d00001e029c198a19d1804ba3e42c47a2); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    font-family: 'VCR OSD Mono','Century Gothic', Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'VCR OSD Mono';
+  src: url('./fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 0 0 2px white;
+  background: linear-gradient(to bottom, #a91d1d, #230000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'VCR OSD Mono', 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
 
 .header
 {
