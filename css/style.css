@@ -35,19 +35,33 @@ body {
     text-shadow: 0 0 2px white;
 }
 
-.grid
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+
+/* .grid
 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas exactas */
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
     justify-items: center;
-}
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  max-width: 1000px; 
+  gap: 10px;
 
 
 .tarjeta
 {
     color: aliceblue;
-    display: flex;
+    display: grid;
     padding: 1em;
     text-align: center;
     flex-direction: column;
@@ -55,6 +69,19 @@ body {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 15px;
+    gap: 1px;
+}
+
+.spotify
+{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 750px;
+}
+
+.phantom {
+  visibility: hidden;
 }
 
 a
