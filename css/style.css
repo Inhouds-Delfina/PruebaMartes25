@@ -37,10 +37,12 @@ body {
 
 .grid
 {
-    display: flex;
-    gap: 10px;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas exactas */
+    gap: 20px;
+    justify-items: center;
 }
+
 
 .tarjeta
 {
