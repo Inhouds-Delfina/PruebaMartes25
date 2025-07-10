@@ -128,7 +128,7 @@ body {
     animation: appear 0.5s ease-in-out;
     transform: scale(1.05);
     transition: all 200ms;
-    box-shadow: 0 0 15px rgba(190, 11, 11, 0.61);
+    box-shadow: 0 0 15px rgba(226, 4, 4, 0.747);
     cursor: pointer;
     text-decoration: none;
 }
