@@ -118,6 +118,7 @@ body {
   opacity: 100%;
   overflow: hidden;
   animation: appear 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .spotify:hover
@@ -128,6 +129,7 @@ body {
     transition: all 200ms;
     box-shadow: 0 0 15px rgba(190, 11, 11, 0.61);
     cursor: pointer;
+    text-decoration: none;
 }
 
 
