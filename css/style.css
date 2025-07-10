@@ -56,7 +56,7 @@ body {
   grid-template-columns: repeat(4, 1fr); 
   max-width: 1000px; 
   gap: 10px;
-
+}
 
 .tarjeta
 {
